@@ -16,7 +16,7 @@
     <div id="wrapper">
 
         <header>
-            <div class="inner-header">
+            <div class="inner-header .clearfix">
                 <!-- 로고 -->
                 <div class="logo">
                     <a href="#">
@@ -33,39 +33,40 @@
                 </div>
 
                 <!-- 상단 메뉴 -->
+                <div class="top-menu">
+                    <!-- 앱 다운로드 -->
+                    <div id="wrap-download">
+                        <a href="#" class="download">
+                            <div>다운로드</div>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="app-link">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="imges/apple-store-3a664174124650d63cae365bc55586fc5ff27b822b1b97788fc4af77d73d00c8.svg" alt="apple">
+                                    App store
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="imges/google-play-c9ad0fc573cd01e2b982df5de6709a3d8d7cec8d9b58a5c08db7da0b92a32a75.svg" alt="Google">
+                                    Google Play
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <!-- 앱 다운로드 -->
-                <div id="wrap-download">
-                    <a href="#" class="download">
-                        <div>다운로드</div>
-                        <i class="fa-solid fa-angle-up"></i>
-                    </a>
+                    <!-- 당근채팅 -->
+                    <button class="chat">
+                        <a href="#">
+                            <div>당근채팅</div>
+                            <div>Beta</div>
+                        </a>
+                    </button>
                 </div>
-                
-                <div class="app-link">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <img src="imges/apple-store-3a664174124650d63cae365bc55586fc5ff27b822b1b97788fc4af77d73d00c8.svg" alt="apple">
-                                App store
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="imges/google-play-c9ad0fc573cd01e2b982df5de6709a3d8d7cec8d9b58a5c08db7da0b92a32a75.svg" alt="Google">
-                                Google Play
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- 당근채팅 -->
-                <button class="chat">
-                    <a href="#">
-                        <div>당근채팅</div>
-                        <div>Beta</div>
-                    </a>
-                </button>
             </div>
         </header>
         <!-- header 끝 -->
@@ -153,7 +154,7 @@
             <ul>
                 <li class="product">
                     <a href="#">
-                        <img src="" alt="배터리">
+                        <img src="imges/product1.png" alt="배터리">
                         <div class="product-name">디월트 20v 5ah배터리</div>
                         <div class="product-price">10,000원</div>
                         <div class="sale-place">서울 금천구 가산동</div>
@@ -162,7 +163,7 @@
                 </li>
                 <li class="product">
                     <a href="#">
-                        <img src="" alt="포켓몬빵">
+                        <img src="imges/product2.png" alt="포켓몬빵">
                         <div class="product-title">포켓몬 빵 싸게 팔아요</div>
                         <div class="product-price">1,500원</div>
                         <div class="sale-place">서울 노원구 중계1동</div>
@@ -171,7 +172,7 @@
                 </li>
                 <li class="product">
                     <a href="#">
-                        <img src="" alt="쿠션">
+                        <img src="imges/product3.png" alt="쿠션">
                         <div class="product-title">카페 정리합니다</div>
                         <div class="product-price">1원</div>
                         <div class="sale-place">제주 제주시 한림읍</div>
@@ -180,7 +181,7 @@
                 </li>
                 <li class="product">
                     <a href="#">
-                        <img src="" alt="갤럭시z플립">
+                        <img src="imges/product4.png" alt="갤럭시z플립">
                         <div class="product-title">갤럭시z플립</div>
                         <div class="product-price">15,000원</div>
                         <div class="sale-place">충북 청주시 흥덕구 복대1동</div>
@@ -189,7 +190,7 @@
                 </li>
                 <li class="product">
                     <a href="#">
-                        <img src="" alt="철제선반">
+                        <img src="imges/product5.png" alt="철제선반">
                         <div class="product-title">철제선반</div>
                         <div class="product-price">-</div>
                         <div class="sale-place">경남 창원시 성산구 상남동</div>
@@ -198,7 +199,7 @@
                 </li>
                 <li class="product">
                     <a href="#">
-                        <img src="" alt="포켓몬빵">
+                        <img src="imges/product6.png" alt="포켓몬빵">
                         <div class="product-title">포켓몬빵</div>
                         <div class="product-price">2,000원</div>
                         <div class="sale-place">경남 김해시 신문동</div>
@@ -207,7 +208,7 @@
                 </li>
                 <li class="product">
                     <a href="#">
-                        <img src="" alt="자전거">
+                        <img src="imges/product7.png" alt="자전거">
                         <div class="product-title">자전거 스트라이다</div>
                         <div class="product-price">120,000원</div>
                         <div class="sale-place">서울 강서구 방화제1동</div>
@@ -216,7 +217,7 @@
                 </li>
                 <li class="product">
                     <a href="#">
-                        <img src="" alt="전자레인지">
+                        <img src="imges/product8.png" alt="전자레인지">
                         <div class="product-title">전자레인지 급처!</div>
                         <div class="product-price">5,000원</div>
                         <div class="sale-place">경기도 수원시 영통구 원천동</div>
